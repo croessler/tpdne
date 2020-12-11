@@ -1,5 +1,5 @@
 # Image Downloader for thispersondoesnotexist.com
-This is a simple bash script that downloads images from https://www.thispersondoesnotexist.com. Each time this site is refreshed, a new image of a artificially generated face is loaded. This script uses wget to loop through a given number of times, downloading the images.
+This is a simple bash script that downloads images from https://www.thispersondoesnotexist.com. In very short intervalls (it appears to be each reload of the page but it isn't), a new image of an artificially generated face is loaded. This script uses wget to loop through a given number of times, downloading the images.
 
 ## Author
 Created by [Ray Heffer](https://rayheffer.com) on February 23 2019
@@ -10,6 +10,8 @@ Max = Number of images you want downloaded
 URL = The URL of the site to use (E.g. https://www.thispersondoesnotexist.com/image)
 
 imgdir = Directory to place the images (E.g. images)
+
+delay = Waiting time in seconds between each iteration to prevent duplicates
 
 
 Feel free to modify this script to your own needs. Have fun!

@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # Image downloader by Ray Heffer, February 23 2019
+# Adapted by Christian Roessler, December 11 2020
 # Blog: https://rayheffer.com
 # GitHub: https://github.com/rayheffer/tpdne
+#         https://github.com/croessler/tpdne
 
 # Configuration
 max=5
