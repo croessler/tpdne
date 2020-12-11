@@ -3,6 +3,7 @@ This is a simple bash script that downloads images from https://www.thispersondo
 
 ## Author
 Created by [Ray Heffer](https://rayheffer.com) on February 23 2019
+Adapted by [Christian Roessler](http://croessler.com) on December 11 2020
 
 ## Usage
 Max = Number of images you want downloaded
